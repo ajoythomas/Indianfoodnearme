@@ -26,14 +26,15 @@ const connectGuide = await getEntry("guides", "guide-connect-supabase");
 const fetchDataGuide = await getEntry("guides", "guide-fetch-data");
 ---
 
-<Layout title="Web Frameworks">
+<Layout title="Indian Food Near Me">
   {
     supabase ? (
       frameworks ? (
         <>
           <h1 class="mb-8 text-4xl font-bold">
-            Vote for Your Favorite Web Framework
+           Indian Food Near Me.
           </h1>
+          <!--
           <table class="w-full text-left">
             <thead>
               <tr class="font-mono text-base border-t border-b">
@@ -48,6 +49,7 @@ const fetchDataGuide = await getEntry("guides", "guide-fetch-data");
               ))}
             </tbody>
           </table>
+          -->
         </>
       ) : (
         <>
