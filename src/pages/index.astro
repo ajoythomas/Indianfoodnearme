@@ -14,7 +14,7 @@ let frameworksError;
 // Fetch frameworks data from Supabase if connection is set up
 if (supabase) {
   const { data, error } = await supabase
-    .from("nearme")
+    .from("frameworks")
     .select("*")
     .order("likes", { ascending: false });
   frameworks = data;
